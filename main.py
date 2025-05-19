@@ -17,7 +17,7 @@ except:
     print("Иконка не загружена")
 
 try:
-    target_img = pygame.image.load(r"C:/Users/user/Documents/GitHub/Tir-game/img/Goal.png")
+    target_img = pygame.image.load(r"C:/Users/user/Documents/GitHub/Tir-game/img/goal.png")
     target_img = pygame.transform.scale(target_img, (160, 160))
     target_width, target_height = 160, 160
 except Exception as e:
